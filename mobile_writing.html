@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile_writing</title>
+    <link rel="stylesheet" href="mobile_writing.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta property="og:url" content="https://yeseung24.github.io/paulrand/">
+    <meta property="og:title" content="paulrand">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="imgog.png">
+    <meta property="og:description" content="202209053 박예승">
+    <script>
+
+        function Mobile(){
+        
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+        
+        if (Mobile()){
+        
+        } else {
+        
+        location.href="file:///Users/park-yeseung/Desktop/writing.html";
+        
+        }
+        
+        </script>
+</head>
+<body>
+    <div class="menubar">
+        <a href="mobile_index.html"><div class="logo"><img src="P_img/P_logo.png" alt="로고"></div></a>
+        <div class="menu" id="open"><img src="P_img/P_menu.png" alt="메뉴"></div>
+    </div>
+    <ul class="menulist" id="menublock">
+        <a href="mobile_Life.html"><li>Life</li></a>
+        <a href="mobile_works.html"><li>Works</li></a>
+        <a href="mobile_Writing.html"><li>Writing</li></a>
+        <div class="cbt" id="close">Close</div>
+    </ul>
+    <div class="writing">Writing</div>
+    <div class="books">Books</div>
+    <div class="img01"><img src="P_img/Writing/Books/1947_Thoughts on Design.png" alt=""></div>
+    <div class="img02"><img src="P_img/Writing/Books/1951_Trademark Design.png" alt=""></div>
+    <div class="img03"><img src="P_img/Writing/Books/1956_Sparkle and Spin.png" alt=""></div>
+    <div class="img04"><img src="P_img/Writing/Books/1957_I Know a Lot of Things.png" alt=""></div>
+    <div class="img05"><img src="P_img/Writing/Books/1962_Little1.png" alt=""></div>
+    <div class="img06"><img src="P_img/Writing/Books/1970_Listen! Listen!.png" alt=""></div>
+    <div class="articles">Articles</div>
+    <div class="img07"><img src="P_img/Writing/Articles/1947_Too Many Cooks.png" alt=""></div>
+    <div class="img08"><img src="P_img/Writing/Articles/1949_Black in the Visual Arts.png" alt=""></div>
+    <div class="img09"><img src="P_img/Writing/Articles/1952_Gene&Helen Federico.png" alt=""></div>
+    <div class="img10"><img src="P_img/Writing/Articles/1952_Modern Typography in the Modern World.png" alt=""></div>
+    <div class="img11"><img src="P_img/Writing/Articles/1965_Design and the Play Instinct.png" alt=""></div>
+    <div class="img12"><img src="P_img/Writing/Articles/1981_On the RCA Ad.png" alt=""></div>
+    <div class="footer">
+        <div class="footerimg"><img src="P_img/footer.png" alt=""></div>
+    </div>
+</body>
+<script>
+        document.getElementById('open').addEventListener('click', function(){
+        document.getElementById('menublock').style.display = 'block';
+    });
+    document.getElementById('close').addEventListener('click', function(){
+        document.getElementById('menublock').style.display = 'none';
+    });
+</script>
+</html>

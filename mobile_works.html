@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile_works</title>
+    <link rel="stylesheet" href="mobile_works.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta property="og:url" content="https://yeseung24.github.io/paulrand/">
+    <meta property="og:title" content="paulrand">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="imgog.png">
+    <meta property="og:description" content="202209053 박예승">
+    <script>
+
+        function Mobile(){
+        
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+        
+        if (Mobile()){
+        
+        } else {
+        
+        location.href="file:///Users/park-yeseung/Desktop/works.html";
+        
+        }
+        </script>
+      <script></script> <src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="menubar">
+        <a href="mobile_index.html"><div class="logo"><img src="P_img/P_logo.png" alt="로고"></div></a>
+        <div class="menu" id="open"><img src="P_img/P_menu.png" alt="메뉴"></div>
+    </div>
+    <ul class="menulist" id="menublock">
+        <a href="mobile_Life.html"><li>Life</li></a>
+        <a href="mobile_works.html"><li>Works</li></a>
+        <a href="mobile_Writing.html"><li>Writing</li></a>
+        <div class="cbt" id="close">Close</div>
+    </ul>
+    <div class="name">Works</div>
+    <div class="txt1">Book Covers</div>
+    <div class="img01"><img src="P_img/Works/BookCovers/1945_Leave Cancelled.png" width="96%"></div>
+    <div class="img02"><img src="P_img/Works/BookCovers/1956_A History of Russian Literature.png" width="96%"></div>
+    <div class="img03"><img src="P_img/Works/BookCovers/1956_Modern Art USA.png" width="96%"></div>
+    <div class="img04"><img src="P_img/Works/BookCovers/1958_Soviet Marxism.png" width="96%"></div>
+    <div class="img05"><img src="P_img/Works/BookCovers/1959_A Fine Frenzy.png" width="96%"></div>
+    <div class="img06"><img src="P_img/Works/BookCovers/1959_Wake Up, Stupid.png" width="96%"></div>
+    <div class="txt2">Posters</div>
+    <div class="img07"><img src="P_img/Works/Posters/1956_Ice Cream Cone.png" width="96%"></div>
+    <div class="img08"><img src="P_img/Works/Posters/1956_Igor Stravinsky.png" width="96%"></div>
+    <div class="img09"><img src="P_img/Works/Posters/1956_Oil Lamp.png" width="96%"></div>
+    <div class="img10"><img src="P_img/Works/Posters/1957_Red Heart Beige Circle.png" width="96%"></div>
+    <div class="img11"><img src="P_img/Works/Posters/1958_Book Week.png" width="96%"></div>
+    <div class="img12"><img src="P_img/Works/Posters/1969_Death Mask.png" width="96%"></div>
+    <div class="txt3">Logos</div>
+    <div class="img13"><img src="P_img/Works/Logos/1938_Esquire Magazine.png" width="96%"></div>
+    <div class="img14"><img src="P_img/Works/Logos/1945_Leave Cancelled.png" width="96%"></div>
+    <div class="img15"><img src="P_img/Works/Logos/1972_IBM.png" width="96%"></div>
+    <div class="img16"><img src="P_img/Works/Logos/1982_AIGA.png" width="96%"></div>
+    <div class="img17"><img src="P_img/Works/Logos/1985-2010_Yale University.png" width="96%"></div>
+    <div class="img18"><img src="P_img/Works/Logos/1987_Pastore De Pamphilis Rampone(PDR).png" width="96%"></div>
+    <div class="footer">
+        <div class="footerimg"><img src="P_img/footer.png" alt=""></div>
+    </div>
+</body>
+<script>
+        document.getElementById('open').addEventListener('click', function(){
+        document.getElementById('menublock').style.display = 'block';
+    });
+    document.getElementById('close').addEventListener('click', function(){
+        document.getElementById('menublock').style.display = 'none';
+    });
+</script>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu{
+    position: absolute;
+    width: 70%;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    text-align: center;
+}
+.bt0 a{
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFDFCE;
+    letter-spacing: 0.4px;
+    line-height: 40px;
+    text-transform: capitalize;
+    transition: all 0.3s;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+.bt0 a:hover{
+    color: #FF3B00;
+    transition: all 0.3s;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+@media screen and (max-width:600px) {
+   .menu{
+    display: block;
+   }
+   .bt0 a{
+    text-align: left;
+    font-size: 40px;
+   }
+}
+.content{
+    width: 100%;
+    line-height: 1.8em;
+    position: absolute;
+    z-index: 1;
+}
+
+.img1{
+    text-align: center;
+}
+.txt{
+    text-align: center;
+    font-size: 36px;
+    color: #6C2601;
+    letter-spacing: 1px;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    padding: 30px;
+    font-weight: 400;
+}
